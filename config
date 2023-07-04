@@ -1,4 +1,8 @@
-Host <servername>
-  HostName 192.168.0.165
+Host <guest_server_name>
+  HostName <IP_Addreess or DNS name>
   User <username>
   Port 22
+
+Host *
+  StrictHostKeyChecking no
+  UserKnownHostFile /dev/null
