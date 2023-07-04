@@ -12,5 +12,5 @@ Host *.us-east-2.compute.amazonaws.com
     IndentityFile ~/.ssh/<key_file_name>.pem
 
 Host *
-    StrictHostKeyChecking no
-    UserKnownHostFile /dev/null
+    StrictHostKeyChecking no        # Don't ask confirmation for fingerprint
+    UserKnownHostFile /dev/null     # Don't save into known_hosts
