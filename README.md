@@ -1,11 +1,9 @@
 # ssh-commands
 ## SSH Config for multiple keys access
 
-#Linux
-Global config file SSH
-/etc/ssh/ssh_config
-User config file
-~/.ssh/config
+# Linux
+Global config file SSH: /etc/ssh/ssh_config
+User config file: ~/.ssh/config
 
 1. Create file ~/.ssh/config
 2. chmod 0600 config
