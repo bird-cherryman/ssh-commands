@@ -1,0 +1,4 @@
+Host <servername>
+  HostName 192.168.0.165
+  User <username>
+  Port 22
