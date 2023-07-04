@@ -9,8 +9,6 @@ User config file: ~/.ssh/config
 2. chmod 0600 config
 3. ssh <geust_server_name>
 
-#Windows
-Global config file SSH
-C:\ProgramData\ssh\sshd_config
-User config file
-C:\Users\<username>\.ssh\config
+# Windows
+Global config file SSH: C:\ProgramData\ssh\sshd_config
+User config file: C:\Users\<username>\.ssh\config
