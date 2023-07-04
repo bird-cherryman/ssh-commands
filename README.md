@@ -1,5 +1,4 @@
-# ssh-commands
-## SSH Config for multiple keys access
+# SSH Config for multiple keys access
 
 # Linux
 Global config file SSH: /etc/ssh/ssh_config
