@@ -1,8 +1,16 @@
 Host <guest_server_name>
-  HostName <IP_Addreess or DNS name>
-  User <username>
-  Port 22
+    HostName <IP_Addreess or DNS name>
+    User <username>
+    Port 22
+
+Host *.pkg.onmicrosoft.com
+    User <username>
+    IndentityFile ~/.ssh/<key_file_name>.pem
+
+Host *.us-east-2.compute.amazonaws.com
+    User <username>
+    IndentityFile ~/.ssh/<key_file_name>.pem
 
 Host *
-  StrictHostKeyChecking no
-  UserKnownHostFile /dev/null
+    StrictHostKeyChecking no
+    UserKnownHostFile /dev/null
